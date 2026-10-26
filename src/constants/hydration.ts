@@ -1,0 +1,9 @@
+export const DEFAULT_GOAL_ML = 2000;
+export const MIN_VOLUME_ML = 1;
+export const MAX_VOLUME_ML = 5000;
+export const MIN_GOAL_ML = 500;
+export const MAX_GOAL_ML = 10000;
+export const QUICK_ADD_VALUES = [200, 250, 500] as const;
+export const STORAGE_KEY = '@hidrate/state';
+export const CORRUPT_KEY_PREFIX = '@hidrate/state:corrupt:';
+export const SCHEMA_VERSION = 1 as const;

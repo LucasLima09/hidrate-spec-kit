@@ -1,0 +1,16 @@
+export const TEST_IDS = {
+  todayPage: 'today-page',
+  weekPage: 'week-page',
+  goalPage: 'goal-page',
+  progressCard: 'progress-card',
+  quickAdd200: 'quick-add-200',
+  quickAdd250: 'quick-add-250',
+  quickAdd500: 'quick-add-500',
+  intakeInput: 'intake-volume-input',
+  intakeSubmit: 'intake-submit',
+  goalInput: 'goal-input',
+  goalSubmit: 'goal-submit',
+  save: 'save-button',
+  cancel: 'cancel-button',
+  historyList: 'intake-history-list',
+} as const;
